@@ -4,7 +4,7 @@ import sqlite3
 root.title("Customer Details")
 root.minsize(width=1500,height=1000)
 
-
+#Labels
 line_label = Label(root, text="__________________________________________________________________________________________________________________________________________________________________________________________", font=("Arial", 16, "bold"),fg="green")
 line_label.place(y=25)
 
