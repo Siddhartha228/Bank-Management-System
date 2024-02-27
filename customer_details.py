@@ -4,7 +4,7 @@ import sqlite3
 root.title("Customer Details")
 root.minsize(width=1500,height=1000)
 
-#Labels
+#Labels Bar
 line_label = Label(root, text="__________________________________________________________________________________________________________________________________________________________________________________________", font=("Arial", 16, "bold"),fg="green")
 line_label.place(y=25)
 
@@ -32,7 +32,7 @@ address_label.grid(row=1, column=7,padx=60,pady=20)
 current_balance_label = Label(root, text="NPR", font=("Arial", 12, "bold"),fg="blue")
 current_balance_label.grid(row=1, column=8,padx=40,pady=20)
 
-
+#Establishing database
 conn = sqlite3.connect('Bank Management System.db')
 cursor = conn.cursor()
 cursor.execute("SELECT * FROM accounts")

@@ -6,7 +6,7 @@ root.title("Update All Details")
 root.geometry("750x400")
 root.resizable(0, 0)
 
-#Clear
+#Clear button
 def clear():
     name_entry.delete(0, END)
     dob_entry.delete(0, END)
