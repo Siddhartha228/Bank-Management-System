@@ -29,9 +29,7 @@ def withdraw():
              messagebox.showerror("Error", "Account not found")
     else:
         messagebox.showinfo("Invalid","All the fields are mandatory to fill")
-
     conn.close()
-
 
 heading_label=Label(root, text="Withdraw Amount",font=("Arial", 20,"bold"))
 heading_label.place(x=250, y=20)
@@ -55,6 +53,8 @@ clear_btn=Button(root, text="Clear", font=("Arial Bold", 12),fg="white",bg="red"
 clear_btn.place(x=450, y=240)
 
 root.mainloop()
+
+
 
 
 

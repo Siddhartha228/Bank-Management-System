@@ -40,5 +40,4 @@ delete_btn.place(x=300, y=300)
 clear_btn=Button(root, text="Clear", font=("Arial Bold", 12),fg="white",bg="black",width=10,cursor="hand2",command=clear)
 clear_btn.place(x=450, y=300)
 
-
 root.mainloop()

@@ -31,7 +31,6 @@ def deposit():
 
     conn.close()
 
-
 heading_label = Label(root, text="Deposit Amount", font=("Arial", 20, "bold"))
 heading_label.place(x=250, y=20)
 
